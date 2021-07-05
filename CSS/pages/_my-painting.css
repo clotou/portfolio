@@ -1,0 +1,16 @@
+.paint {
+  color: #222B56;
+  text-shadow: 2px 2px #1A9695;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding-top: 77px;
+}
+
+.paint:hover {
+  color: #222B56;
+  text-shadow: 5px 8px #1A9695;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding-top: 77px;
+  transition-duration: 1s;
+}
