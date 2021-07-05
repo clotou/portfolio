@@ -33,6 +33,7 @@
 .part-text {
    text-align: justify;
    flex-direction: column;
+   margin-bottom: 50px;
 }
 @media (min-width: 1199px)
 {
