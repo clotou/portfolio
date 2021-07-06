@@ -3,7 +3,18 @@ ul li {
 }
 .menu{
   position: fixed;
+  /* padding-left: 10px; */
+  z-index: 3;
+}
+@media(max-width:790px){
+  .menu {
+  padding-left: 10px;
+  }
+}
+@media(min-width:791px){
+  .menu {
   padding-left: 50px;
+  }
 }
 .btn-intro {
   background-color:#fcf6f0;

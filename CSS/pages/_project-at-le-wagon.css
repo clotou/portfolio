@@ -5,11 +5,6 @@
 .main-proj {
   margin-top: 18px;
 }
-/* .projet-title {
-  padding-left: 15px;
-  width: 100px;
-  height: 30px;
-} */
 .cadre-project {
   padding-left: 15px;
   width: 100px;
@@ -26,7 +21,7 @@
 }
 @media (min-width:770px){
   .wagon-project {
-    font-size: 40px;
+    font-size: 50px;
   }
 }
 @media (max-width: 769px){
