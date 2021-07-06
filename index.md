@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href='css/style.css' rel='stylesheet'type="text/css">
+  <title>Clotilde Lacaille Portfolio</title>
+  <link rel="shortcut icon" href="images/icone.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- <link href="/tailwind.css" rel="stylesheet"> -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b52becc51d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+<!--Menu-->
+<div class="menu">
+  <a class="btn-intro float clickable" data-target="#about-me" href="#intro">M</a>
+  <a class="btn-about-me float clickable" data-target="#about-me" href="#about-me">A</a>
+  <a class="btn-project float clickable" data-target="#wagon-project" href="#wagon-project">W-P</a>
+  <a class="btn-paintings float clickable" data-target="#painting" href="#painting">P</a>
+  <a class="btn-skills float clickable" data-target="#skills" href="#skills">S</a>
+  <a class="btn-contacts float clickable" data-target="#contact" href="#contact">C</a>
+</div>
+  <!-- intro -->
+  <div class="coloration-back-1">
+    <div class="intro container" id="intro">
+      <div class= "profil-picture"></div>
+      <div class="carre-found">
+        <div class="carre"></div>
+      </div>
+        <h1 id="big-title">
+          <div id="hi">Hi,</div>
+          <div id="clo">I'm Clotilde,</div>
+          <div id="dev">web developer.</div>
+        </h1>
+        <p class="spe">Fullstack developer / Ruby on rails</p>
+    </div>
+  </div>
+
+  <!-- About me part -->
+  <div class="part-one-about-me coloration-back-2">
+    <div class="container main" id="about-me">
+      <div class="tote-found">
+        <div class="tote-bag"></div>
+      </div>
+      <div class="part-text">
+        <h2 class="about-me">
+          <span class="cadre-about">About me .</span>
+        </h2>
+        <br>
+        <div class="text">
+        <p>Recently graduated from Le Wagon (web developer training) I want to become a fullstack developer.
+        In my previous job, I notably acquired team management, organization and work planning.
+        <br>
+        I also have an appetite for design, which I have been able to exploit in various ways in the positions I have held.
+        <br>
+        I paint acrylic on upclycled supports (wood, shelf, chipboard).
+        I am flexible and adapt easily, hence my attraction to teamwork. I am also rigorous and organized.
+        </p>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Project at le Wagon -->
+
+    <div class="part-two-wagon-project coloration-back-3">
+    <div class="container main-proj" id="wagon-project">
+      <div class="part-text">
+        <h2 class="wagon-project">
+          <span class="cadre-project">Project at le Wagon .</span>
+        </h2>
+      </div>
+      <h3>Friends-Trip</h3>
+      <div class="card-video">
+
+        <div class="card">
+          <div class="in-card">
+
+
+
+
+            <h4><u>An app to make trips organization a pleasure</u></h4>
+            <ul>
+              <li>• Mockup creation with Figma</li>
+              <li>• Integration using HTML/CSS/JS</li>
+              <li>• Plugin with Mapbox to visualize trip on a map</li>
+            </ul>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+
+
+
+              <ol class="carousel-indicators chevron-color">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+              </ol>
+
+
+              <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                  <img class="d-block w-100" id="home" src="images/FT1.png" alt="First slide">
+                </div>
+
+                <div class="carousel-item">
+                  <img class="d-block w-100" id="trips" src="images/FT2.png" alt="Second slide">
+                </div>
+
+                <div class="carousel-item">
+                  <img class="d-block w-100" id="prop" src="images/FT3.png" alt="Third slide">
+                </div>
+
+                <div class="carousel-item">
+                  <img class="d-block w-100" id="add-prop" src="images/FT4.png" alt="Foorth slide">
+                </div>
+
+                <div class="carousel-item">
+                  <img class="d-block w-100" id="validated" src="images/FT5.png" alt="Fifth slide">
+                </div>
+
+                <div class="carousel-item">
+                  <img class="d-block w-100" id="booked" src="images/FT6.png" alt="Sixth slide">
+                </div>
+
+                <div class="carousel-item">
+                  <img class="d-block w-100" id="add-friend" src="images/FT7.png" alt="seventh slide">
+                </div>
+
+              </div>
+
+
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon chevron-color" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon chevron-color" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+            <a href="http://www.friends-trip.travel/" class="site-friendstrip" target="_blank">http://www.friends-trip.travel/</a>
+            <h4><u>Team members</u></h4>
+            <ul>
+              <li>• Richad Meralli</li>
+              <li>• Inaki Gauthier</li>
+              <li>• Marc-Antoine Begin</li>
+              <li>• Clotilde Lacaille</li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="card-2">
+          <div class="card-2-in">
+          <a href="https://www.facebook.com/watch/live/?v=523282558716912&ref=watch_permalink" target="_blank" class="demo-day-link">Demoday Batch #590 - Le Wagon Paris</a>
+            <div class="img-pres" >
+              <a href="https://www.facebook.com/watch/live/?v=523282558716912&ref=watch_permalink" target="_blank">
+              <img src="./images/pres.jpeg" width="900" height="600" alt="demo-day of Friends-Trip">
+              </a>
+            </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- My paintings -->
+
+  <div class="part-three-my-paintings coloration-back-4">
+    <div class="container main-paintings" id="painting">
+      <div class="part-text">
+        <h2 class="paintings">
+          <span class="cadre-paintings"> My paintings .</span>
+        </h2>
+      </div>
+      <div class="all-paintings">
+
+        <!--image 1-->
+          <div class="image-rognage-plane">
+            <img alt="Air France" src="./images/paints/1 air france7 copie.jpg" class="paintings-of-plane"/>
+          </div>
+          <!--image 2-->
+          <div class="image-rognage-mains">
+            <img alt="Donne moi ta main" src="./images/paints/2 donne moi ta main.JPG" class="paintings-of-hands"/>
+          </div>
+          <!--image 3-->
+          <div class="image-rognage-tear">
+            <img alt="La larme" src="./images/paints/3 9larme copie.jpg" class="paintings-of-tear"/>
+          </div>
+
+
+          <!--image 4-->
+          <div class="image-rognage-black-naked">
+            <img alt="Hip-hop Naked" src="./images/paints/4 9-hiphopnaked copie.jpg" class="paintings-of-black-naked"/>
+          </div>
+          <!--image 5-->
+          <div class="image-rognage-piece-of-face">
+            <img alt="Visage décomposé" src="./images/paints/5 9 copie.jpg" class="paintings-piece-of-face" />
+          </div>
+          <!--image 6-->
+          <div class="image-rognage-piece-of-broken-glass">
+            <img alt="Bois brisé" src="./images/paints/6 eclat carre.JPG" class="paintings-of-broken-glass" />
+          </div>
+
+
+          <!--image 7-->
+          <div class="image-rognage-piece-of-cleavage">
+            <img alt="Décolleté en chaine" src="./images/paints/7  DECOLLETE copie.jpg" class="paintings-of-cleavage" />
+          </div>
+          <!--image 8-->
+          <div class="image-rognage-bulb">
+            <img alt="Electricity" src="./images/paints/8 ampoule.JPG" class="paintings-of-bulb" />
+          </div>
+          <!--image 9-->
+          <div class="image-rognage-piece-of-duel">
+            <img alt="Jarres d'été" src="./images/paints/9 duels.JPG" class="paintings-piece-of-duels" />
+          </div>
+
+
+          <!--image 10-->
+          <div class="image-rognage-piece-of-silhouette">
+            <img alt="Fil conducteur" src="./images/paints/10 FIL CONDUCRTEUR9 copie.jpg" class="paintings-of-silhouette" />
+          </div>
+          <!--image 11-->
+          <div class="image-rognage-cigaret">
+            <img alt="Electricity" src="./images/paints/11 marboro.jpg" class="paintings-of-cigaret" />
+          </div>
+          <!--image 12-->
+          <div class="image-rognage-piece-of-miror">
+            <img alt="Jarres d'été" src="./images/paints/12 miroi reclaté.JPG" class="paintings-piece-of-miror" />
+          </div>
+
+
+          <!--image 13-->
+          <div class="image-rognage-piece-of-septembre">
+            <img alt="Septembre" src="./images/paints/13 insta septembre.jpg" class="paintings-of-septembre" />
+          </div>
+          <!--image 14-->
+          <div class="image-rognage-of-colored-eye">
+            <img alt="Electricity" src="./images/paints/14 grand oeil col.JPG" class="paintings-of-colored-eye" />
+          </div>
+          <!--image 15-->
+          <div class="image-rognage-piece-of-indian">
+            <img alt="Jarres d'été" src="./images/paints/15 insta indienne3.jpg" class="paintings-piece-of-indian" />
+          </div>
+
+
+          <!--image 16-->
+          <div class="image-rognage-piece-of-girl-smiling">
+            <img alt="Tranche de sourir" src="./images/paints/16 tranche de sourir.JPG" class="paintings-of-girl-smiling" />
+          </div>
+          <!--image 17-->
+          <div class="image-rognage-of-black-white-eye">
+            <img alt="I'm still watching you" src="./images/paints/17 src i m still watching you .jpg" class="paintings-of-black-white-eye" />
+          </div>
+          <!--image 18-->
+          <div class="image-rognage-piece-of-dressed-woman">
+            <img alt="La petite robe en noir" src="./images/paints/18 la petite robe noir.png" class="paintings-piece-of-dressed-woman" />
+          </div>
+
+
+          <!--image 19-->
+          <div class="image-rognage-piece-of-indian-wedding">
+            <img alt="Mariage d'une indienne" src="./images/paints/19 le mariage d'une indienne 60X80 copie.jpg" class="paintings-of-indian-wedding" />
+          </div>
+          <!--image 20-->
+          <div class="image-rognage-of-drop">
+            <img alt="La goute" src="./images/paints/20 goute.JPG"
+              class="paintings-of-drop" />
+          </div>
+          <!--image 21-->
+          <div class="image-rognage-piece-of-3D-s">
+            <img alt="Petit tableau 3D" src="./images/paints/21 3D 1.JPG"
+              class="paintings-piece-of-3D-s" />
+          </div>
+
+          <!--image 22-->
+          <div class="image-rognage-piece-of-porsch">
+            <img alt="Porsch 365" src="./images/paints/22 porsch9 copie.jpg"
+              class="paintings-of-indian-porsch" />
+          </div>
+          <!--image 23-->
+          <div class="image-rognage-of-jean">
+            <img alt="Portrait de Jean" src="./images/paints/23 portrait jean.JPG" class="paintings-of-jean" />
+          </div>
+          <!--image 24-->
+          <div class="image-rognage-piece-of-indian-think">
+            <img alt="Petit tableau 3D" src="./images/paints/24 le songe d'une indienne 60X80 copie.jpg" class="paintings-piece-of-indian-think" />
+          </div>
+
+
+          <!--image 25-->
+          <div class="image-rognage-piece-of-wine">
+            <img alt="Du verre au vin" src="./images/paints/25 src verre au vin.JPG"
+              class="paintings-piece-of-wine"/>
+          </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+  <!--Skilss & Tools-->
+
+  <div class="part-four-skills-and-tools coloration-back-5">
+    <div class="container main-skills" id="skills">
+      <div class="part-text">
+        <h2 class="skills">
+          <span class="cadre-skills"> Skilss & Tools .</span>
+        </h2>
+      </div>
+      <div class="all-skills">
+        <!--Ruby-->
+        <div class="logo-card">
+          <div class="image-rognage-ruby">
+            <img alt="Ruby logo" src="./images/logos/ruby logo.png" class="ruby-logo" />
+          </div>
+          <h4 class="logo-title">Ruby</h4>
+        </div>
+
+        <!--Rails-->
+        <div class="logo-card">
+          <div class="image-rognage-rails">
+            <img alt="Rails logo" src="./images/logos/rails logo.png" class="rails-logo" />
+          </div>
+          <h4 class="logo-title">Ruby</h4>
+        </div>
+
+        <!--HTML-->
+        <div class="logo-card">
+          <div class="image-rognage-html">
+            <img alt="HTML logo" src="./images/logos/html5 logo.png" class="html-logo" />
+          </div>
+          <h4 class="logo-title">HTML 5</h4>
+        </div>
+
+        <!--CSS-->
+        <div class="logo-card">
+          <div class="image-rognage-css">
+            <img alt="CSS logo" src="./images/logos/css3 logo.png" class="css-logo" />
+          </div>
+          <h4 class="logo-title">CSS 3</h4>
+        </div>
+
+        <!--JS-->
+        <div class="logo-card">
+          <div class="image-rognage-js">
+            <img alt="JS logo" src="./images/logos/js logo.png" class="js-logo" />
+          </div>
+          <h4 class="logo-title">CSS 3</h4>
+        </div>
+
+        <!--SASS-->
+        <div class="logo-card">
+          <div class="image-rognage-sass">
+            <img alt="SASS logo" src="./images/logos/sass logo.png" class="sass-logo" />
+          </div>
+          <h4 class="logo-title">SASS</h4>
+        </div>
+
+        <!--Bootstrap-->
+        <div class="logo-card">
+          <div class="image-rognage-bootstrap">
+            <img alt="Bootstrap logo" src="./images/logos/bootstrap logo.png" class="bootstrap-logo" />
+          </div>
+          <h4 class="logo-title">Bootstrap</h4>
+        </div>
+
+        <!--Figma-->
+        <div class="logo-card">
+          <div class="image-rognage-figma">
+            <img alt="Figma logo" src="./images/logos/figma logo.png" class="figma-logo" />
+          </div>
+          <h4 class="logo-title">Figma</h4>
+        </div>
+
+        <!--Photoshop-->
+        <div class="logo-card">
+          <div class="image-rognage-photoshop">
+            <img alt="Photoshop logo" src="./images/logos/photoshop logo.png" class="photoshop-logo" />
+          </div>
+          <h4 class="logo-title">Photoshop</h4>
+        </div>
+
+        <!--Illustrator-->
+        <div class="logo-card">
+          <div class="image-rognage-illustrator">
+            <img alt="Illustrator logo" src="./images/logos/illustrator logo.png" class="illustrator-logo" />
+          </div>
+          <h4 class="logo-title">Illustrator</h4>
+        </div>
+
+        <!--Indesign-->
+        <div class="logo-card">
+          <div class="image-rognage-indesign">
+            <img alt="Indesign logo" src="./images/logos/indesign logo.png" class="indesign-logo" />
+          </div>
+          <h4 class="logo-title">Illustrator</h4>
+        </div>
+
+      </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <!--Contact-->
+
+  <div class="part-five-contact coloration-back-6">
+    <div class="container main-contact" id="contact">
+      <div class="part-text">
+        <h2 class="contact">
+          <span class="cadre-contact">Contact .</span>
+        </h2>
+      </div>
+      <div class="contact-lign">
+        <div class="logo-raognage-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>
+          <a href="https://www.linkedin.com/in/clotilde-lacaille-3612ab63/" target="_blank" class="logo-link-text">Linkedin</a>
+        </p>
+      </div>
+      <br>
+      <div class="contact-lign">
+        <div class="logo-raognage-github">
+          <i class="fab fa-github"></i>
+        </div>
+        <p>
+          <a href="https://github.com/clotou" target="_blank" class="logo-link-text">Github</a>
+        </p>
+      </div>
+      <br>
+      <div class="contact-lign">
+        <div class="logo-raognage-loc">
+          <i class="fas fa-map-pin"></i>
+        </div>
+        <p>Paris- France</p>
+      </div>
+      <br>
+      <div class="contact-lign">
+        <div class="logo-raognage-tel">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <p>+33 6 59 19 91 18</p>
+      </div>
+      <br>
+      <div class="contact-lign">
+        <div class="logo-raognage-mail">
+          <i class="fas fa-at"></i>
+        </div>
+        <p>
+          <a>lacailleclotilde@gmail.com</p>
+        </p>
+        </div>
+
+    </div>
+  </div>
+
+
+  <div id="footer" class="container">
+    <div class="in-footer">
+      <div>
+      <p class="footer-text">133 boulevard de Grenelle</p>
+      <p class="footer-text">75015 - Paris</p>
+      <p class="footer-text">FRANCE</p>
+      </div>
+      <div>
+        <p class="footer-text">Made with  and a lot of ❤️ in Paris</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="javascript/index.js" type="module"></script>
+</body>
+
+</html>
