@@ -50,24 +50,27 @@
   }
 }
 .tote-found{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    height: 660px;
-    width: 370px;
-    background-color: #fcf6f0;
-    z-index: 1;
+  border-radius: 2px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 660px;
+  width: 370px;
+  background-color: #fcf6f0;
+  z-index: 1;
 }
 .tote-bag {
-    top: 49px;
-    left: 16%;
-    position: relative;
-    height: 576px;
-    width: 391px;
-    background-size: 280%;
-    z-index: 2;
-    background: center / contain no-repeat url(../../images/LeWagon_DemoDay_060421_by_BenoitBillard-123.jpg);
-    border: solid #f9efe6;
-    border-width: 8px 11px 17px 12px;
+  border-radius: 2px;
+  top: 49px;
+  left: 16%;
+  position: relative;
+  height: 576px;
+  width: 391px;
+  background-size: 280%;
+  z-index: 2;
+  background: center / contain no-repeat url(../../images/LeWagon_DemoDay_060421_by_BenoitBillard-123.jpg);
+  background-color: #f9efe6;
+  border: solid #f9efe6;
+  border-width: 8px 11px 17px 12px;
 }
 
 p {

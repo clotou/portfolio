@@ -5,47 +5,54 @@
 .main-proj {
   margin-top: 18px;
 }
-.projet-title {
+/* .projet-title {
   padding-left: 15px;
   width: 100px;
   height: 30px;
+} */
+.cadre-project {
+  padding-left: 15px;
+  width: 100px;
+  height: 30px;
+  box-shadow: -2px 2px 1px -1px black;
+}
+.wagon-project {
+  padding-top: 80px;
+  position: relative;
+  color: #fcf6f0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
 }
 @media (min-width:770px){
-  .projet-title {
-    box-shadow: -2px 2px 1px -1px black;
+  .wagon-project {
+    font-size: 40px;
   }
 }
 @media (max-width: 769px){
-  .projet-title {
-    box-shadow: -2px 0px 1px -1px black;
+  .wagon-project {
+    font-size: 40px;
   }
 }
 
 .card-video {
+
   padding-bottom: 50px;
   position: relative;
   display: flex;
   width: 100%;
   /* flex-direction: row; */
   flex-flow: row wrap;
+  justify-content: space-between;
 }
 
 .card {
+  border-radius: 2px !important;
   max-width: 600px;
-  margin-right: 8px;
+  /* margin-right: 8px; */
   background-color: #fcf6f0 !important;
-  border-radius: 0px !important;
 }
 
-
-.wagon-project {
-  position: relative;
-  padding-top: 80px;
-  color: #fcf6f0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 50px;
-  font-weight: 600;
-}
 h3 {
   color: #f2eae3;
   font-family: 'Poppins', sans-serif;
@@ -63,11 +70,15 @@ h3 {
 }
 
 .in-card {
+  border-radius: 2px !important;
   position: relative;
   padding: 50px;
   background-color: #fcf6f0;
 }
-h4 {
+.site-friendstrip h4 {
+  padding-bottom: 30px;
+}
+.in-card h4 {
   padding-bottom: 30px;
 }
 
@@ -109,7 +120,7 @@ ul li {
 .card-2 {
   max-width: 600px;
   background-color: #fcf6f0;
-  border-radius: 0px !important;
+  border-radius: 2px !important;
 }
 @media (max-width: 1400px){
   .card-2 {
@@ -125,8 +136,9 @@ ul li {
 
 }
 .img-pres img {
-    margin: 50px 12px 10px -22px;
-    width: 106%;
+  border-radius: 2px;
+  margin: 50px 12px 10px -22px;
+  width: 106%;
   height: 100%;
   left: 0;
   border: solid #f9efe6;
@@ -135,10 +147,10 @@ ul li {
   background: center / contain no-repeat url(../../images/pres.jpeg);
 }
 .img-pres img:hover {
+  border-radius: 2px;
   margin: 119px 95px 7px 95px;
   transition: margin 1s;
- border-width: 19px 48px 29px 23px;
-
+  border-width: 19px 48px 29px 23px;
   filter: brightness(90%);
 }
 .demo-day-link {
