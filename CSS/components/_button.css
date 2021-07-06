@@ -1,37 +1,147 @@
 ul li {
   list-style-type: none;
 }
-.label-container{
-	position:fixed;
-	bottom:48px;
-	right:105px;
-	display:table;
-	visibility: hidden;
+.menu{
+  position: fixed;
+  padding-left: 50px;
 }
-
-/* .label-text{
-	color:#d79100;
+.btn-intro {
+  background-color:#fcf6f0;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+  color: #fcf6f0;
   font-family: 'Poppins', sans-serif;
-
-	display:table-cell;
-	vertical-align:middle;
-	padding:10px;
-  margin-left: 10%;
-	border-radius:3px;
-} */
-
-/* .label-arrow{
-	display:table-cell;
-	vertical-align:middle;
-	color:#333;
-	opacity:0.5;
-} */
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: none !important;
+  text-shadow: 1px 2px 0px #b2a98f,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 34px 30px rgba(0,0,0,0.1);
+}
+.btn-intro:hover {
+  color: #fcf6f0;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-shadow: 1px 2px 0px #b2a98f,
+    0px 14px 10px rgba(0.5,0,0,0.15),
+    0px 34px 30px rgba(0,0,0,0.1),
+    0px 24px 2px rgba(0,0,0,0.1);
+}
 .btn-about-me {
-  background-color:#4114FF;
+  background-color:#736862;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+  color: #736862;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: none !important;
+  text-shadow: 1px 2px 0px #4f493b,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 34px 30px rgba(0,0,0,0.1);
+
+}
+.btn-about-me:hover {
+  color: #736862;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-shadow: 1px 2px 0px #4f493b,
+    0px 14px 10px rgba(0.5,0,0,0.15),
+    0px 34px 30px rgba(0,0,0,0.1),
+    0px 24px 2px rgba(0,0,0,0.1);
+}
+.btn-project {
+  background-color:#858181;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+  color: #858181;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-decoration: none !important;
+  text-shadow: 1px 2px 0px #60605f,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 34px 30px rgba(0,0,0,0.1);
+}
+.btn-project:hover {
+  color: #858181;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-shadow: 1px 2px 0px #60605f,
+    0px 14px 10px rgba(0.5,0,0,0.15),
+    0px 34px 30px rgba(0,0,0,0.1),
+    0px 24px 2px rgba(0,0,0,0.1);
+}
+.btn-paintings {
+  background-color:#1f1f1f;
+  box-shadow: rgba(201, 201, 201, 0.2) 1.95px 1.95px 2.6px;
+  color: #1f1f1f;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: none !important;
+  text-shadow: 1px 2px 0px #41413c,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 34px 30px rgba(0,0,0,0.1);
+}
+.btn-paintings:hover {
+  color: #1f1f1f;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-shadow: 1px 2px 0px #41413c,
+    0px 14px 10px rgba(0.5,0,0,0.15),
+    0px 34px 30px rgba(0,0,0,0.1),
+    0px 24px 2px rgba(0,0,0,0.1);
+}
+.btn-skills {
+  background-color:#602a28;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+  color: #602a28;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: none !important;
+  text-shadow: 1px 2px 0px #7b4747,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 34px 30px rgba(0,0,0,0.1);
+}
+.btn-skills:hover {
+  color: #602a28;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-shadow: 1px 2px 0px #7b4747
+    0px 14px 10px rgba(0.5,0,0,0.15),
+    0px 34px 30px rgba(0,0,0,0.1),
+    0px 24px 2px rgba(0,0,0,0.1);
+}
+.btn-contacts {
+  background-color:#ddadab;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+  color: #ddadab;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: none !important;
+  text-shadow: 1px 2px 0px #b09494,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 34px 30px rgba(0,0,0,0.1);
+}
+.btn-contacts:hover {
+  color: #ddadab;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-shadow: 1px 2px 0px #b09494,
+    0px 14px 10px rgba(0.5,0,0,0.15),
+    0px 34px 30px rgba(0,0,0,0.1),
+    0px 24px 2px rgba(0,0,0,0.1);
 }
 .float{
+  justify-content: center;
+  text-decoration: none;
   top: 0;
-  position: fixed;
   bottom: 13%;
   left: 3%;
   z-index: 9999;
@@ -44,24 +154,7 @@ ul li {
 	right:50px;
 	border-radius:50px;
 	text-align:center;
-
 }
-
-.float + div.label-container {
-  top: 0;
-  margin-top: 5%;
-  bottom: 13%;
-  left: 3%;
-  visibility: hidden;
-  opacity: 0;
-  transition: visibility 0s, opacity 0.5s ease;
-}
-
-.float:hover + div.label-container{
-  top: 0;
-  position: fixed;
-  bottom: 13%;
-  left: 3%;
-  visibility: visible;
-  opacity: 1;
+.float:hover {
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px, rgba(201, 201, 201, 0.651) 1.95px 1.95px 4px inset;
 }

@@ -29,10 +29,18 @@
 </head>
 
 <body>
-
+<!--Menu-->
+<div class="menu">
+  <a class="btn-intro float clickable" data-target="#about-me" href="#intro">M</a>
+  <a class="btn-about-me float clickable" data-target="#about-me" href="#about-me">A</a>
+  <a class="btn-project float clickable" data-target="#wagon-project" href="#wagon-project">W-P</a>
+  <a class="btn-paintings float clickable" data-target="#painting" href="#painting">P</a>
+  <a class="btn-skills float clickable" data-target="#skills" href="#skills">S</a>
+  <a class="btn-contacts float clickable" data-target="#contact" href="#contact">C</a>
+</div>
   <!-- intro -->
   <div class="coloration-back-1">
-    <div class="intro container">
+    <div class="intro container" id="intro">
       <div class= "profil-picture"></div>
       <div class="carre-found">
         <div class="carre"></div>
@@ -48,7 +56,7 @@
 
   <!-- About me part -->
   <div class="part-one-about-me coloration-back-2">
-    <div class="container main">
+    <div class="container main" id="about-me">
       <div class="tote-found">
         <div class="tote-bag"></div>
       </div>
@@ -74,10 +82,12 @@
   <!-- Project at le Wagon -->
 
     <div class="part-two-wagon-project coloration-back-3">
-    <div class="container main-proj">
-      <h2 class="wagon-project">
-        <span class="cadre-project">Project at le Wagon .</span>
-      </h2>
+    <div class="container main-proj" id="wagon-project">
+      <div class="part-text">
+        <h2 class="wagon-project">
+          <span class="cadre-project">Project at le Wagon .</span>
+        </h2>
+      </div>
       <h3>Friends-Trip</h3>
       <div class="card-video">
 
@@ -151,8 +161,6 @@
                   <span class="sr-only">Next</span>
                 </a>
 
-
-
             </div>
             <a href="http://www.friends-trip.travel/" class="site-friendstrip" target="_blank">http://www.friends-trip.travel/</a>
             <h4><u>Team members</u></h4>
@@ -186,7 +194,7 @@
   <!-- My paintings -->
 
   <div class="part-three-my-paintings coloration-back-4">
-    <div class="container main-paintings">
+    <div class="container main-paintings" id="painting">
       <div class="part-text">
         <h2 class="paintings">
           <span class="cadre-paintings"> My paintings .</span>
@@ -323,10 +331,12 @@
   <!--Skilss & Tools-->
 
   <div class="part-four-skills-and-tools coloration-back-5">
-    <div class="container main-skills">
-      <h2 class="skills">
-        <span class="cadre-skills"> Skilss & Tools .</span>
-      </h2>
+    <div class="container main-skills" id="skills">
+      <div class="part-text">
+        <h2 class="skills">
+          <span class="cadre-skills"> Skilss & Tools .</span>
+        </h2>
+      </div>
       <div class="all-skills">
         <!--Ruby-->
         <div class="logo-card">
@@ -425,13 +435,58 @@
 
 
   <!--Contact-->
-  <!--
-  <div class="part-five-contact">
-    <div>
-      <h2 class="contact">Contact</h2>
+
+  <div class="part-five-contact coloration-back-6">
+    <div class="container main-contact" id="contact">
+      <div class="part-text">
+        <h2 class="contact">
+          <span class="cadre-contact">Contact .</span>
+        </h2>
+      </div>
+      <div class="contact-lign">
+        <div class="logo-raognage-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </div>
+        <p>
+          <a href="https://www.linkedin.com/in/clotilde-lacaille-3612ab63/" target="_blank" class="logo-link-text">Linkedin</a>
+        </p>
+      </div>
+      <br>
+      <div class="contact-lign">
+        <div class="logo-raognage-github">
+          <i class="fab fa-github"></i>
+        </div>
+        <p>
+          <a href="https://github.com/clotou" target="_blank" class="logo-link-text">Github</a>
+        </p>
+      </div>
+      <br>
+      <div class="contact-lign">
+        <div class="logo-raognage-loc">
+          <i class="fas fa-map-pin"></i>
+        </div>
+        <p>Paris- France</p>
+      </div>
+      <br>
+      <div class="contact-lign">
+        <div class="logo-raognage-tel">
+          <i class="fas fa-mobile-alt"></i>
+        </div>
+        <p>+33 6 59 19 91 18</p>
+      </div>
+      <br>
+      <div class="contact-lign">
+        <div class="logo-raognage-mail">
+          <i class="fas fa-at"></i>
+        </div>
+        <p>
+          <a>lacailleclotilde@gmail.com</p>
+        </p>
+        </div>
+
     </div>
   </div>
-  -->
+
 
   <!--
   <div id="footer">
