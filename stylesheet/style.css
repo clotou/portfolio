@@ -1,8 +1,9 @@
-@import "pages/_intro.css";
-@import "pages/_about-me.css";
-@import "pages/_project-at-le-wagon.css";
-@import "pages/_my-painting.css";
-@import "pages/_skills-&-tools.css";
-@import "pages/_contact.css";
-@import "components/_button.css";
-@import "pages/_footer.css"
+@import url("pages/_intro.css");
+@import url("pages/_about-me.css");
+@import url("pages/_project-at-le-wagon.css");
+@import url("pages/_my-painting.css");
+@import url("pages/_skills-&-tools.css");
+@import url("pages/_contact.css");
+@import url("components/_button.css");
+@import url("pages/_footer.css");
+
