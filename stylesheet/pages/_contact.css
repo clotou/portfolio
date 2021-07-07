@@ -148,7 +148,7 @@
   padding-bottom: 10px;
   color: #212529;
   text-decoration:none !important;
-   box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
+  box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
 }
 .logo-link-text:hover {
   color: #212529;
