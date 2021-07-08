@@ -59,7 +59,7 @@
   position: relative;
   height: 440px;
   width: 389px;
-  background: center / contain no-repeat url(../images/pic-pro-revue.png);
+  background: center / contain no-repeat url(../../images/pic-pro-revue.png);
   filter:grayscale(1);
   background-size: 119%;
   z-index: 2;
