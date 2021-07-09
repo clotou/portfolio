@@ -1549,10 +1549,10 @@ ul li {
   display: flex;
   align-items: center;
   margin-top: 20px;
-	width:100px;
-	height:100px;
-	bottom:100px;
-	right:100px;
+	width:50px;
+	height:50px;
+	bottom:50px;
+	right:50px;
 	border-radius:50px;
 	text-align:center;
 }
