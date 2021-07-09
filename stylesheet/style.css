@@ -14,7 +14,7 @@
 .profil-picture {
   width: 500px;
   height: 600px;
-  background: center / contain no-repeat url(../../images/pic-pro-revue.png);
+  background: center / contain no-repeat url(pic-pro-revue.png);
   position: absolute;
   top: 100px;
   left: 30%;
@@ -59,7 +59,7 @@
   position: relative;
   height: 440px;
   width: 389px;
-  background: center / contain no-repeat url(../../images/pic-pro-revue.png);
+  background: center / contain no-repeat url(pic-pro-revue.png);
   filter:grayscale(1);
   background-size: 119%;
   z-index: 2;
@@ -348,14 +348,12 @@ p {
     font-size: 40px;
   }
 }
-
 .card-video {
 
   padding-bottom: 50px;
   position: relative;
   display: flex;
   width: 100%;
-  /* flex-direction: row; */
   flex-flow: row wrap;
   justify-content: space-between;
 }
@@ -385,7 +383,7 @@ h3 {
 
 .in-card {
   border-radius: 2px !important;
-  position: relative;
+  /* position: relative; */
   padding: 50px;
   background-color: #fcf6f0;
 }
@@ -407,16 +405,47 @@ ul li {
 }
 
 .carousel {
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 5px;
-  background-color: #fcf6f082;
+    /* position: relative; */
+        left: -86px;
+    width: 141%;
+    margin-top: 10px;
+    padding-left: 42px;
+    padding-right: 10px;
+    padding-top: 23px;
+    padding-bottom: 40px;
+    border-radius: 2px;
+    background-color: #e8e0d8;
+}
+
+.carousel-indicators {
+    /* width: 100%; */
+
+    position: absolute;
+    right: 0;
+    bottom: 11px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-inner {
+    position: relative;
+    width: 102%;
+    overflow: hidden;
 }
 .d-block{
   border-radius: 10px;
 }
 
 .chevron-color {
+  filter: invert(100%);
+}
+.barre-color {
   filter: invert(100%);
 }
 .site-friendstrip {
@@ -1357,6 +1386,7 @@ ul li {
   padding-left: 50px;
   }
 }
+
 .btn-intro {
   background-color:#fcf6f0;
   box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
@@ -1366,8 +1396,8 @@ ul li {
   font-size: 30px;
   text-decoration: none !important;
   text-shadow: 1px 2px 0px #b2a98f,
-    0px 14px 10px rgba(0,0,0,0.15),
-    0px 34px 30px rgba(0,0,0,0.1);
+  0px 14px 10px rgba(0,0,0,0.15),
+  0px 34px 30px rgba(0,0,0,0.1);
 }
 .btn-intro:hover {
   color: #fcf6f0;
@@ -1375,9 +1405,9 @@ ul li {
   font-weight: 600;
   font-size: 30px;
   text-shadow: 1px 2px 0px #b2a98f,
-    0px 14px 10px rgba(0.5,0,0,0.15),
-    0px 34px 30px rgba(0,0,0,0.1),
-    0px 24px 2px rgba(0,0,0,0.1);
+  0px 14px 10px rgba(0.5,0,0,0.15),
+  0px 34px 30px rgba(0,0,0,0.1),
+  0px 24px 2px rgba(0,0,0,0.1);
 }
 .btn-about-me {
   background-color:#736862;
@@ -1388,8 +1418,8 @@ ul li {
   font-size: 30px;
   text-decoration: none !important;
   text-shadow: 1px 2px 0px #4f493b,
-    0px 14px 10px rgba(0,0,0,0.15),
-    0px 34px 30px rgba(0,0,0,0.1);
+  0px 14px 10px rgba(0,0,0,0.15),
+  0px 34px 30px rgba(0,0,0,0.1);
 
 }
 .btn-about-me:hover {
@@ -1398,9 +1428,9 @@ ul li {
   font-weight: 600;
   font-size: 30px;
   text-shadow: 1px 2px 0px #4f493b,
-    0px 14px 10px rgba(0.5,0,0,0.15),
-    0px 34px 30px rgba(0,0,0,0.1),
-    0px 24px 2px rgba(0,0,0,0.1);
+  0px 14px 10px rgba(0.5,0,0,0.15),
+  0px 34px 30px rgba(0,0,0,0.1),
+  0px 24px 2px rgba(0,0,0,0.1);
 }
 .btn-project {
   background-color:#858181;
@@ -1411,8 +1441,8 @@ ul li {
   font-size: 20px;
   text-decoration: none !important;
   text-shadow: 1px 2px 0px #60605f,
-    0px 14px 10px rgba(0,0,0,0.15),
-    0px 34px 30px rgba(0,0,0,0.1);
+  0px 14px 10px rgba(0,0,0,0.15),
+  0px 34px 30px rgba(0,0,0,0.1);
 }
 .btn-project:hover {
   color: #858181;
@@ -1420,9 +1450,9 @@ ul li {
   font-weight: 600;
   font-size: 20px;
   text-shadow: 1px 2px 0px #60605f,
-    0px 14px 10px rgba(0.5,0,0,0.15),
-    0px 34px 30px rgba(0,0,0,0.1),
-    0px 24px 2px rgba(0,0,0,0.1);
+  0px 14px 10px rgba(0.5,0,0,0.15),
+  0px 34px 30px rgba(0,0,0,0.1),
+  0px 24px 2px rgba(0,0,0,0.1);
 }
 .btn-paintings {
   background-color:#1f1f1f;
@@ -1433,8 +1463,8 @@ ul li {
   font-size: 30px;
   text-decoration: none !important;
   text-shadow: 1px 2px 0px #41413c,
-    0px 14px 10px rgba(0,0,0,0.15),
-    0px 34px 30px rgba(0,0,0,0.1);
+  0px 14px 10px rgba(0,0,0,0.15),
+  0px 34px 30px rgba(0,0,0,0.1);
 }
 .btn-paintings:hover {
   color: #1f1f1f;
@@ -1442,8 +1472,8 @@ ul li {
   font-weight: 600;
   font-size: 30px;
   text-shadow: 1px 2px 0px #41413c,
-    0px 14px 10px rgba(0.5,0,0,0.15),
-    0px 34px 30px rgba(0,0,0,0.1),
+  0px 14px 10px rgba(0.5,0,0,0.15),
+  0px 34px 30px rgba(0,0,0,0.1),
     0px 24px 2px rgba(0,0,0,0.1);
 }
 .btn-skills {
@@ -1490,6 +1520,24 @@ ul li {
     0px 34px 30px rgba(0,0,0,0.1),
     0px 24px 2px rgba(0,0,0,0.1);
 }
+/* @media screen and (min-width: 200px) and (max-width: 640px)  */
+@media (max-width: 400px){
+    .float {
+    width: 100px;
+    height:100px;
+    bottom:100px;
+    right:100px;
+    }
+  }
+  @media (min-width: 401px){
+    .float {
+    width: 50px;
+    height:50px;
+    bottom:50px;
+    right:50px;
+    }
+  }
+
 .float{
   justify-content: center;
   text-decoration: none;
@@ -1500,14 +1548,15 @@ ul li {
   display: flex;
   align-items: center;
   margin-top: 20px;
-	width:50px;
+	/* width:50px;
 	height:50px;
 	bottom:50px;
-	right:50px;
+	right:50px; */
 	border-radius:50px;
 	text-align:center;
 }
 .float:hover {
 box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px, rgba(201, 201, 201, 0.651) 1.95px 1.95px 4px inset;
 }
+
 
