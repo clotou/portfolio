@@ -14,7 +14,11 @@
 .profil-picture {
   width: 500px;
   height: 600px;
-  background: center / contain no-repeat url(pic-pro-revue.png);
+  background-image: image-url('pic-pro-revue.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+  /* background: center / contain no-repeat url(pic-pro-revue.png); */
   position: absolute;
   top: 100px;
   left: 30%;
@@ -59,7 +63,11 @@
   position: relative;
   height: 440px;
   width: 389px;
-  background: center / contain no-repeat url(pic-pro-revue.png);
+  background-image: image-url('pic-pro-revue.png');
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+  /* background: center / contain no-repeat url(../images/pic-pro-revue.png); */
   filter:grayscale(1);
   background-size: 119%;
   z-index: 2;
