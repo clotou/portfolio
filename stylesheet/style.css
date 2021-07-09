@@ -17,7 +17,7 @@
   height: 600px;
   background: center / contain no-repeat url(../images/pic-pro-revue.png);
   position: absolute;
-  top: 100px;
+  top: 110px;
   left: 30%;
   display: flex;
   filter: grayscale(0.5);
@@ -27,7 +27,7 @@
 
 @keyframes jsPpicture {
   0% {
-    left: 0px;
+    left: -200px;
   }
   100% {
     left: 30%;
@@ -51,6 +51,7 @@
   }
   100%{
     left: 16%;
+    background-color: #fcf6f0;;
   }
 }
 .carre {
@@ -82,7 +83,7 @@ color: #e2b049;
 width: 3000px;
 height: 330px;
 top: -100px;
-left: 30%;
+left: 20%;
 z-index: 3;
 }
 
@@ -1521,7 +1522,7 @@ ul li {
     0px 24px 2px rgba(0,0,0,0.1);
 }
 /* @media screen and (min-width: 200px) and (max-width: 640px)  */
-@media (max-width: 500px){
+/* @media (max-width: 500px){
     .float {
     width: 100px;
     height:100px;
@@ -1536,7 +1537,7 @@ ul li {
     bottom:50px;
     right:50px;
     }
-  }
+  } */
 
 .float{
   justify-content: center;
@@ -1548,10 +1549,10 @@ ul li {
   display: flex;
   align-items: center;
   margin-top: 20px;
-	/* width:50px;
-	height:50px;
-	bottom:50px;
-	right:50px; */
+	width:100px;
+	height:100px;
+	bottom:100px;
+	right:100px;
 	border-radius:50px;
 	text-align:center;
 }
