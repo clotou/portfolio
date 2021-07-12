@@ -246,6 +246,24 @@ h1 {
   justify-content: space-between;
   align-items: center;
 }
+.resume {
+    font-size: 24px;
+  }
+@media only screen
+  and (min-device-width: 100px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .main {
+      flex-direction: column;
+  }
+  .part-text {
+    margin-left: 50px;
+  }
+  .resume {
+    font-size: 40px;
+  }
+}
 .cadre-about {
   padding-left: 15px;
   width: 100px;
@@ -339,6 +357,15 @@ p {
   font-size: 50px;
   font-weight: 600;
 }
+@media only screen
+  and (min-device-width: 100px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .card-video {
+      padding-left: 2%;
+    }
+}
 @media (min-width:770px){
   .wagon-project {
     font-size: 50px;
@@ -350,7 +377,6 @@ p {
   }
 }
 .card-video {
-
   padding-bottom: 50px;
   position: relative;
   display: flex;
@@ -373,13 +399,22 @@ h3 {
   padding: 0px 50px 50px 50px;
   font-size: 40px;
 }
+@media only screen
+  and (min-device-width: 100px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .FT-title {
+      font-size: 50px;
+  }
+}
 
 .wagon-project:hover {
   color: #fcf6f0;
   text-shadow: 5px 8px #fcf6f082;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  transition-duration: 1s;
+  font-size: 40px;
 }
 
 .in-card {
@@ -404,10 +439,21 @@ ul li {
   font-weight: 300;
   font-size: 24px;
 }
-
+@media only screen
+  and (min-device-width: 100px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    u {
+      font-size: 40px;
+    }
+    ul li {
+      font-size: 40px;
+    }
+  }
 .carousel {
     /* position: relative; */
-        left: -86px;
+    left: -86px;
     width: 141%;
     margin-top: 10px;
     padding-left: 42px;
@@ -417,7 +463,15 @@ ul li {
     border-radius: 2px;
     background-color: #e8e0d8;
 }
-
+@media only screen
+  and (min-device-width: 100px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  .carousel {
+    width: 168%;
+  }
+}
 .carousel-indicators {
     /* width: 100%; */
 
@@ -460,7 +514,15 @@ ul li {
 .site-friendstrip:hover {
   color: #FE6625;
 }
-
+@media only screen
+  and (min-device-width: 100px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .site-friendstrip {
+      font-size: 24px;
+    }
+  }
 .card-2 {
   max-width: 600px;
   background-color: #fcf6f0;
@@ -506,6 +568,15 @@ ul li {
   color: #FE6625 !important;
   text-decoration: none !important;
 }
+@media only screen
+  and (min-device-width: 100px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    .demo-day-link {
+      font-size: 24px;
+    }
+  }
 
 /*page mu paintingd*/
 .coloration-back-4 {
@@ -1356,6 +1427,7 @@ border-radius: 10px;
   transition-duration: 1s;
 }
 
+
 /* page footer*/
 .in-footer {
   padding-top: 10px;
@@ -1374,20 +1446,9 @@ ul li {
 }
 .menu{
   position: fixed;
-  /* padding-left: 10px; */
+  padding-left: 1%;
   z-index: 3;
 }
-@media(max-width:790px){
-  .menu {
-  padding-left: 10px;
-  }
-}
-@media(min-width:791px){
-  .menu {
-  padding-left: 50px;
-  }
-}
-
 .btn-intro {
   background-color:#fcf6f0;
   box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
@@ -1553,22 +1614,24 @@ ul li {
 	height:50px;
 	bottom:50px;
 	right:50px;
-	border-radius:50px;
+	border-radius:50%;
 	text-align:center;
 }
 .float:hover {
 box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px, rgba(201, 201, 201, 0.651) 1.95px 1.95px 4px inset;
 }
 @media only screen
-  and (min-device-width: 240px)
+  and (min-device-width: 100px)
   and (max-device-width: 480px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
     .float {
-  width: 100px;
-  height: 100px;
-  bottom: 100px;
-  right: 100px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  width: 120px;
+  height: 120px;
+  bottom: 120px;
+  right: 120px;
   }
 }
 
