@@ -15,7 +15,7 @@
 .profil-picture {
   width: 500px;
   height: 600px;
-  background: center / contain no-repeat url(../images/pic-pro-revue.png);
+  background: center / contain no-repeat url(../images/pic-pro-revue.jpg);
   position: absolute;
   top: 110px;
   left: 30%;
@@ -60,7 +60,7 @@
   position: relative;
   height: 440px;
   width: 389px;
-  background: center / contain no-repeat url(../images/pic-pro-revue.png);
+  background: center / contain no-repeat url(../images/pic-pro-revue.jpg);
   filter:grayscale(1);
   background-size: 119%;
   z-index: 2;
