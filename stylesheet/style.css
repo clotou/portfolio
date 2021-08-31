@@ -7,7 +7,7 @@
 @import url(pages/_footer.css);
 @import url(components/_button.css); */
 
-/*page intro*/
+/*PAGE INTRO*/
 .coloration-back-1 {
   background-color: #fcf6f0;
   overflow: hidden;
@@ -335,7 +335,7 @@ p {
   margin-bottom: 50px;
 }
 
-/*page projet at le wagon*/
+/*PAGE PROJET AT LE WAGON*/
 .coloration-back-3 {
   background-color:#858181;
 }
@@ -577,8 +577,28 @@ ul li {
       font-size: 24px;
     }
   }
+/*PAGE LISTIN*/
+  .coloration-back-2B {
+  background-color: #96676e;
+}
 
-/*page mu paintingd*/
+.main-listin {
+  position: relative;
+  margin-top: 18px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.card-listin{
+  padding-bottom: 50px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+/*PAGE MY PAINTINGS*/
 .coloration-back-4 {
   background-color: #1f1f1f;
 }
@@ -1021,7 +1041,7 @@ border-radius: 10px;
   bottom: -12px;
 }
 
-/*page skill&tools*/
+/*PAGE SKILLS & TOOLS*/
 .coloration-back-5 {
   background-color:#602a28;
 }
@@ -1266,7 +1286,7 @@ border-radius: 10px;
     top: -23%;
 }
 
-/* page contact */
+/* PAGE CONTACT */
 .coloration-back-6 {
   background-color: #ddadab;
 }
@@ -1512,6 +1532,28 @@ ul li {
   font-weight: 600;
   font-size: 20px;
   text-shadow: 1px 2px 0px #60605f,
+  0px 14px 10px rgba(0.5,0,0,0.15),
+  0px 34px 30px rgba(0,0,0,0.1),
+  0px 24px 2px rgba(0,0,0,0.1);
+}
+.btn-listin {
+   background-color:#96676e;
+  box-shadow: rgba(0, 0, 0, 0.2) 1.95px 1.95px 2.6px;
+  color: #96676e;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-decoration: none !important;
+  text-shadow: 1px 2px 0px #60605f,
+  0px 14px 10px rgba(0,0,0,0.15),
+  0px 34px 30px rgba(0,0,0,0.1);
+}
+.btn-listin:hover {
+    color: #684248;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-shadow: 1px 2px 0px #684248,
   0px 14px 10px rgba(0.5,0,0,0.15),
   0px 34px 30px rgba(0,0,0,0.1),
   0px 24px 2px rgba(0,0,0,0.1);
