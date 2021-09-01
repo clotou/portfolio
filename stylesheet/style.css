@@ -440,58 +440,57 @@ ul li {
   font-size: 24px;
 }
 @media only screen
-  and (min-device-width: 100px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    u {
-      font-size: 40px;
-    }
-    ul li {
-      font-size: 40px;
-    }
+and (min-device-width: 100px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  u {
+    font-size: 40px;
   }
+  ul li {
+    font-size: 40px;
+  }
+}
 .carousel {
-    /* position: relative; */
-    left: -86px;
-    width: 141%;
-    margin-top: 10px;
-    padding-left: 42px;
-    padding-right: 10px;
-    padding-top: 23px;
-    padding-bottom: 40px;
-    border-radius: 2px;
-    background-color: #e8e0d8;
+  /* position: relative; */
+  left: -86px;
+  width: 141%;
+  margin-top: 10px;
+  padding-left: 42px;
+  padding-right: 10px;
+  padding-top: 23px;
+  padding-bottom: 40px;
+  border-radius: 2px;
+  background-color: #e8e0d8;
 }
 @media only screen
-  and (min-device-width: 100px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
+and (min-device-width: 100px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
   .carousel {
     width: 168%;
   }
 }
-.carousel-indicators {
-    /* width: 100%; */
-
-    position: absolute;
-    right: 0;
-    bottom: 11px;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-right: 15%;
-    margin-bottom: 1rem;
-    margin-left: 15%;
-    list-style: none;
+.friendstrip-indicators {
+  /* width: 100%; */
+  position: absolute;
+  right: 0;
+  bottom: 11px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
 }
 .carousel-inner {
-    position: relative;
-    width: 102%;
-    overflow: hidden;
+  position: relative;
+  width: 102%;
+  overflow: hidden;
 }
 .d-block{
   border-radius: 10px;
@@ -515,14 +514,14 @@ ul li {
   color: #FE6625;
 }
 @media only screen
-  and (min-device-width: 100px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .site-friendstrip {
-      font-size: 24px;
-    }
+and (min-device-width: 100px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  .site-friendstrip {
+    font-size: 24px;
   }
+}
 .card-2 {
   max-width: 600px;
   background-color: #fcf6f0;
@@ -569,19 +568,27 @@ ul li {
   text-decoration: none !important;
 }
 @media only screen
-  and (min-device-width: 100px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: portrait) {
-    .demo-day-link {
-      font-size: 24px;
-    }
+and (min-device-width: 100px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+  .demo-day-link {
+    font-size: 24px;
   }
+}
 /*PAGE LISTIN*/
-  .coloration-back-2B {
+.coloration-back-2B {
   background-color: #96676e;
 }
-
+.listin-app {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #fcf6f0;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
 .main-listin {
   position: relative;
   margin-top: 18px;
@@ -589,14 +596,80 @@ ul li {
   padding-bottom: 50px;
 }
 
-.card-listin{
-  padding-bottom: 50px;
-  position: relative;
-  display: flex;
-  width: 100%;
-  flex-flow: row wrap;
-  justify-content: space-between;
+.in-card-listin h4 {
+  padding-bottom: 30px;
+
 }
+.in-card-listin {
+  display: flex;
+  /* flex-wrap: wrap !important; */
+  border-radius: 2px !important;
+  padding: 50px;
+  background-color: #fcf6f0;
+}
+
+
+.listin-description {
+  width: 50%;
+  padding-right: 26px;
+}
+.listin-illustrations {
+  width: 50%;
+  padding-left: 10px;
+}
+
+.carousel-control-next-icon {
+    filter: invert(70%);
+}
+.carousel-control-prev-icon {
+    filter: invert(70%);
+}
+.site-listin{
+    font-size: 21px;
+    color: #186F70;
+    margin-top: 24px;
+    padding: 24px;
+    text-decoration: none !important;
+
+    padding-left: 35px;
+}
+
+.listin {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+.listin-carousel-inner {
+  margin-left: 20px;
+  width: 80% !important;
+}
+
+.carousel-item h5 {
+  color: black;
+  font-size: 1.2rem;
+}
+.carousel-item p {
+  color: black;
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.692);
+}
+
+.site-listin h4 {
+  padding-bottom: 30px;
+}
+
+
+
 
 /*PAGE MY PAINTINGS*/
 .coloration-back-4 {
