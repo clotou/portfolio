@@ -1,0 +1,216 @@
+.coloration-back-3 {
+  background-color: #858181;
+}
+
+.main-proj {
+  margin-top: 18px;
+}
+.cadre-project {
+  padding-left: 15px;
+  width: 100px;
+  height: 30px;
+  box-shadow: -2px 2px 1px -1px black;
+}
+.wagon-project {
+  padding-top: 80px;
+  position: relative;
+  color: #fcf6f0;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .card-video {
+    padding-left: 2%;
+  }
+}
+@media (min-width: 770px) {
+  .wagon-project {
+    font-size: 50px;
+  }
+}
+@media (max-width: 769px) {
+  .wagon-project {
+    font-size: 40px;
+  }
+}
+h3 {
+  color: #f2eae3;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 0px 50px 50px 50px;
+  font-size: 40px;
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .FT-title {
+    font-size: 50px;
+  }
+}
+.card-video {
+  padding-bottom: 50px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.card {
+  border-radius: 2px !important;
+  max-width: 600px;
+  /* margin-right: 8px; */
+  background-color: #fcf6f0 !important;
+}
+
+.in-card {
+  border-radius: 2px !important;
+  /* position: relative; */
+  padding: 50px;
+  background-color: #fcf6f0;
+}
+.carousel-wagon {
+  /* position: relative; */
+  left: -86px;
+  width: 141%;
+  margin-top: 10px;
+  padding-left: 42px;
+  padding-right: 10px;
+  padding-top: 23px;
+  padding-bottom: 40px;
+  border-radius: 2px;
+  background-color: #e8e0d8;
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .carousel-wagon {
+    width: 168%;
+  }
+}
+
+.friendstrip-indicators {
+  /* width: 100%; */
+  position: absolute;
+  right: 0;
+  bottom: 11px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+  list-style: none;
+}
+.carousel-inner-wagon {
+  position: relative;
+  width: 102%;
+  overflow: hidden;
+}
+
+.wagon-project:hover {
+  color: #fcf6f0;
+  text-shadow: 5px 8px #fcf6f082;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.site-friendstrip h4 {
+  padding-bottom: 30px;
+}
+.in-card h4 {
+  padding-bottom: 30px;
+}
+
+u {
+  margin-left: 16px;
+}
+
+ul li {
+  padding-bottom: 5px;
+  font-weight: 300;
+  font-size: 24px;
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  u {
+    font-size: 40px;
+  }
+  ul li {
+    font-size: 40px;
+  }
+}
+
+.d-block {
+  border-radius: 10px;
+}
+
+.chevron-color {
+  filter: invert(100%);
+}
+.barre-color {
+  filter: invert(100%);
+}
+.site-friendstrip {
+  color: #186f70;
+  margin-top: 24px;
+  padding: 24px;
+  text-decoration: none !important;
+  display: flex;
+  justify-content: space-evenly;
+}
+.site-friendstrip:hover {
+  color: #fe6625;
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .site-friendstrip {
+    font-size: 24px;
+  }
+}
+.card-2 {
+  max-width: 600px;
+  background-color: #fcf6f0;
+  border-radius: 2px !important;
+}
+@media (max-width: 1400px) {
+  .card-2 {
+    margin-top: 8px;
+  }
+}
+.card-2-in {
+  position: relative;
+  padding: 50px;
+}
+.img-pres {
+  position: relative;
+}
+.img-pres img {
+  border-radius: 2px;
+  margin: 89px 12px 10px -22px;
+  width: 106%;
+  height: 100%;
+  left: 0;
+  border: solid #f9efe6;
+  border-width: 19px 48px 29px 23px;
+  background-color: #f9efe6;
+  background: center / contain no-repeat url(../../images/pres.jpeg);
+}
+.img-pres img:hover {
+  border-radius: 2px;
+  margin: 119px 95px 7px 95px;
+  transition: margin 1s;
+  border-width: 19px 48px 29px 23px;
+  filter: brightness(90%);
+}
+.demo-day-link {
+  color: #186f70 !important;
+  text-decoration: none !important;
+}
+.demo-day-link:hover {
+  position: relative;
+  color: #fe6625 !important;
+  text-decoration: none !important;
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .demo-day-link {
+    font-size: 24px;
+  }
+}

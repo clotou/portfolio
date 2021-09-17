@@ -1,0 +1,221 @@
+.coloration-back-1 {
+  background-color: #fcf6f0;
+  overflow: hidden;
+}
+.profil-picture {
+  width: 500px;
+  height: 600px;
+  background: center / contain no-repeat url(../images/pic-pro-revue.jpg);
+  position: absolute;
+  top: 110px;
+  left: 30%;
+  display: flex;
+  filter: grayscale(0.5);
+  animation: jsPpicture 1s 1;
+  z-index: 0;
+}
+
+@keyframes jsPpicture {
+  0% {
+    left: -300px;
+  }
+  100% {
+    left: 30%;
+  }
+}
+.carre-found {
+  height: 477px;
+  width: 470px;
+  position: relative;
+  top: 153px;
+  left: 16%;
+  background-color: #fcf6f0;
+  z-index: 1;
+  transition-delay: 3s;
+  animation: jsCFound 2s 1;
+}
+@keyframes jsCFound {
+  0% {
+    left: -300px;
+  }
+  100% {
+    left: 16%;
+    background-color: #fcf6f0;
+  }
+}
+.carre {
+  top: 20px;
+  left: 0px;
+  position: relative;
+  height: 440px;
+  width: 389px;
+  background: center / contain no-repeat url(../images/pic-pro-revue.jpg);
+  filter: grayscale(1);
+  background-size: 119%;
+  z-index: 2;
+  animation: jsCarre 3s 1;
+}
+
+@keyframes jsCarre {
+  0% {
+    left: -680px;
+    /* animation: jsCarre 6s 1; */
+  }
+  100% {
+    left: 0px;
+  }
+}
+
+#big-title {
+  position: relative;
+  color: #e2b049;
+  width: 3000px;
+  height: 330px;
+  top: -100px;
+  left: 20%;
+  z-index: 3;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-shadow: 2px 4px #222b56;
+  color: #e2b049;
+  z-index: 0;
+  display: inline-block;
+}
+
+h1:before {
+  content: "";
+  height: 6px;
+  width: 500px;
+  background: #222b56;
+  box-shadow: 2px 2px #e2b049;
+  position: absolute;
+  left: -223px;
+  top: 121px;
+  transform: rotate(-114deg);
+  animation: jsBefore 2s 1;
+}
+
+@keyframes jsBefore {
+  0% {
+    margin-left: 960px;
+  }
+  100% {
+    left: -223px;
+  }
+}
+
+#hi {
+  animation: jsHi 2s 1;
+  margin-left: 16px;
+}
+
+@keyframes jsHi {
+  0% {
+    color: transparent;
+    margin-left: 1500px;
+  }
+  100% {
+    margin-left: 16px;
+  }
+}
+
+#clo {
+  animation: jsClo 2.5s 1;
+  margin-left: 65px;
+}
+
+@keyframes jsClo {
+  0% {
+    color: transparent;
+    margin-left: 1600px;
+  }
+  100% {
+    margin-left: 65px;
+  }
+}
+
+#dev {
+  animation: jsDev 3s 1;
+  margin-left: 100px;
+}
+
+@keyframes jsDev {
+  0% {
+    color: transparent;
+    margin-left: 1700px;
+  }
+  100% {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 53px !important;
+  }
+  #clo {
+    margin-left: 45px;
+  }
+  @keyframes jsClo {
+    0% {
+      color: transparent;
+      margin-left: 1600px;
+    }
+    100% {
+      margin-left: 45px;
+    }
+  }
+  #dev {
+    margin-left: 70px;
+  }
+  @keyframes jsDev {
+    0% {
+      color: transparent;
+      margin-left: 1700px;
+    }
+    100% {
+      margin-left: 70px;
+    }
+  }
+}
+
+@media (min-width: 960px) {
+  h1 {
+    font-size: 90px !important;
+  }
+}
+
+.spe {
+  position: relative;
+  top: -68px;
+  left: 41%;
+  color: #424141;
+  font-family: "Poppins", sans-serif;
+  animation: jsSpe 2s 1;
+}
+
+@keyframes jsSpe {
+  0% {
+    left: -600px;
+  }
+  100% {
+    left: 41%;
+  }
+}
+
+@media (max-width: 3000px) {
+  .profil-picture {
+    max-width: 500px;
+  }
+}
+
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}

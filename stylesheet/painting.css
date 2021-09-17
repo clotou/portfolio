@@ -1,0 +1,441 @@
+.coloration-back-4 {
+  background-color: #1f1f1f;
+}
+
+.main-paintings {
+  position: relative;
+  margin-top: 18px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.cadre-paintings {
+  padding-left: 15px;
+  width: 100px;
+  height: 30px;
+  box-shadow: -2px 2px 1px -1px rgb(143, 142, 142);
+}
+
+.paintings {
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  color: #fcf6f0;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.paintings:hover {
+  color: #fcf6f0;
+  text-shadow: 5px 8px #fcf6f082;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  transition-duration: 1s;
+}
+
+.all-paintings {
+  border-radius: 2px;
+  background-color: #f2eae3;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  width: 100%;
+  position: relative;
+}
+.all-paintings > div {
+  margin: 10px;
+}
+
+/* image 1*/
+.image-rognage-plane {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 456px;
+  height: 468px;
+  overflow: hidden;
+}
+.paintings-of-plane {
+  padding-right: 226px;
+  padding-top: 201px;
+  width: 211%;
+  position: absolute;
+  left: -50%;
+  top: -50%;
+  padding-left: 229px;
+}
+/* image 2*/
+.image-rognage-mains {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 314px;
+  height: 594px;
+  overflow: hidden;
+}
+.paintings-of-hands {
+  padding-right: 352px;
+  padding-top: 150px;
+  width: 305%;
+  position: absolute;
+  left: -50%;
+  top: -50%;
+}
+/* image 3*/
+.image-rognage-tear {
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    width: 415px;
+    height: 422px;
+    overflow: hidden;
+}
+.paintings-of-tear {
+      width: 111%;
+    position: absolute;
+    left: -11%;
+}
+
+/* image 4*/
+.image-rognage-black-naked {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 428px;
+  height: 448px;
+  overflow: hidden;
+}
+.paintings-of-black-naked {
+  padding-right: 20px;
+  width: 123%;
+  position: absolute;
+  right: -6%;
+}
+/* image 5*/
+.image-rognage-piece-of-face {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 404px;
+  height: 451px;
+  overflow: hidden;
+}
+.paintings-piece-of-face {
+  width: 123%;
+  position: absolute;
+  left: -15%;
+}
+/* image 6*/
+.image-rognage-piece-of-broken-glass{
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 297px;
+  height: 420px;
+  overflow: hidden;
+}
+.paintings-of-broken-glass {
+  width: 109%;
+  position: absolute;
+  left: -7%;
+}
+
+/* image 7*/
+.image-rognage-piece-of-cleavage{
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 386px;
+  height: 465px;
+  overflow: hidden;
+}
+.paintings-of-cleavage {
+  width: 121%;
+  position: absolute;
+  left: -17%;
+}
+/* image 8*/
+.image-rognage-bulb {
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    width: 366px;
+    height: 368px;
+    overflow: hidden;
+}
+.paintings-of-bulb {
+    width: 111%;
+    position: absolute;
+    right: -2%;
+    bottom: -97px;
+}
+/* image 9*/
+.image-rognage-piece-of-duel {
+border-radius: 10px;
+    position: relative;
+    text-align: center;
+    width: 404px;
+    height: 631px;
+    overflow: hidden;
+}
+.paintings-piece-of-duels {
+  width: 123%;
+  position: absolute;
+  left: -15%;
+}
+
+/* image 10*/
+.image-rognage-piece-of-silhouette{
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 346px;
+  height: 383px;
+  overflow: hidden;
+}
+.paintings-of-silhouette {
+  width: 111%;
+  position: absolute;
+  left: -6%;
+}
+/* image 11*/
+.image-rognage-cigaret {
+border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 556px;
+  height: 350px;
+  overflow: hidden;
+}
+.paintings-of-cigaret {
+  width: 111%;
+  position: absolute;
+  right: -2%;
+  bottom: -97px;
+}
+/* image 12*/
+.image-rognage-piece-of-miror {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 290px;
+  height: 391px;
+  overflow: hidden;
+}
+.paintings-piece-of-miror {
+  width: 129%;
+  position: absolute;
+  left: -13%;
+  bottom: -65px;
+}
+
+/* image 13*/
+.image-rognage-piece-of-septembre{
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 346px;
+  height: 383px;
+  overflow: hidden;
+}
+.paintings-of-septembre {
+  width: 111%;
+  position: absolute;
+  left: -6%;
+}
+/* image 14*/
+.image-rognage-of-colored-eye {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 391px;
+  height: 534px;
+  overflow: hidden;
+}
+.paintings-of-colored-eye {
+  width: 144%;
+  position: absolute;
+  right: -21%;
+  bottom: -28px;
+}
+/* image 15*/
+.image-rognage-piece-of-indian {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 390px;
+  height: 461px;
+  overflow: hidden;
+}
+.paintings-piece-of-indian {
+  width: 136%;
+  position: absolute;
+  left: -29%;
+  bottom: -56px;
+}
+
+/* image 16*/
+.image-rognage-piece-of-girl-smiling{
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 288px;
+  height: 594px;
+  overflow: hidden;
+}
+.paintings-of-girl-smiling {
+  padding-right: 352px;
+  padding-top: 150px;
+  width: 320%;
+  position: absolute;
+  left: -52%;
+  top: -39%;
+}
+/* image 17*/
+.image-rognage-of-black-white-eye{
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 349px;
+  height: 534px;
+  overflow: hidden;
+}
+.paintings-of-black-white-eye {
+  width: 144%;
+  position: absolute;
+  right: -26%;
+  bottom: -124px;
+}
+/* image 18*/
+.image-rognage-piece-of-dressed-woman {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 433px;
+  height: 491px;
+  overflow: hidden;
+}
+.paintings-piece-of-dressed-woman {
+  width: 105%;
+  position: absolute;
+  left: -2%;
+  bottom: -8px;
+}
+
+/* image 19*/
+.image-rognage-piece-of-indian-wedding{
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 405px;
+  height: 534px;
+  overflow: hidden;
+}
+.paintings-of-indian-wedding {
+  background-color: #f2eae3;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  width: 100%;
+  position: relative;
+}
+/* image 20*/
+.image-rognage-of-drop {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 349px;
+  height: 488px;
+  overflow: hidden;
+}
+.paintings-of-drop {
+  width: 144%;
+  position: absolute;
+  right: -23%;
+  bottom: -12px;
+}
+/* image 21*/
+.image-rognage-piece-of-3D-s {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 433px;
+  height: 449px;
+  overflow: hidden;
+}
+.paintings-piece-of-3D-s {
+  width: 105%;
+  position: absolute;
+  left: -2%;
+  bottom: -8px;
+}
+
+/* image 22*/
+.image-rognage-piece-of-porsch {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 386px;
+  height: 386px;
+  overflow: hidden;
+}
+.paintings-of-indian-porsch {
+  width: 141%;
+  position: absolute;
+  right: -23%;
+  bottom: -77px;
+}
+/* image 23*/
+.image-rognage-of-jean {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 399px;
+  height: 399px;
+  overflow: hidden;
+}
+.paintings-of-jean {
+  width: 104%;
+  position: absolute;
+  left: -2%;
+  bottom: -17px;
+}
+/* image 24*/
+.image-rognage-piece-of-indian-think {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 405px;
+  height: 534px;
+  overflow: hidden;
+}
+.paintings-piece-of-indian-think {
+  background-color: #f2eae3;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  width: 100%;
+  position: relative;
+}
+
+/* image 25*/
+.image-rognage-piece-of-wine {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 349px;
+  height: 488px;
+  overflow: hidden;
+}
+.paintings-piece-of-wine {
+  width: 144%;
+  position: absolute;
+  right: -23%;
+  bottom: -12px;
+}
