@@ -191,7 +191,6 @@ ul li {
   border: solid #f9efe6;
   border-width: 19px 48px 29px 23px;
   background-color: #f9efe6;
-  background: center / contain no-repeat url(../../images/pres.jpeg);
 }
 .img-pres img:hover {
   border-radius: 2px;
