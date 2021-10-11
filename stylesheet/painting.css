@@ -18,7 +18,7 @@
 
 .paintings {
   position: relative;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 50px;
   font-weight: 600;
   color: #fcf6f0;
@@ -28,7 +28,7 @@
 .paintings:hover {
   color: #fcf6f0;
   text-shadow: 5px 8px #fcf6f082;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   transition-duration: 1s;
 }
@@ -66,6 +66,30 @@
   top: -50%;
   padding-left: 229px;
 }
+.plane-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(154 29 29 / 30%);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-plane:hover .plane-description {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* image 2*/
 .image-rognage-mains {
   border-radius: 10px;
@@ -83,19 +107,66 @@
   left: -50%;
   top: -50%;
 }
+.hands-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(29 154 121 / 73%);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+  padding: 0px 25px 16px 25px;
+}
+.image-rognage-mains:hover .hands-description {
+  visibility: visible;
+  opacity: 1;
+}
 /* image 3*/
 .image-rognage-tear {
-    border-radius: 10px;
-    position: relative;
-    text-align: center;
-    width: 415px;
-    height: 422px;
-    overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 415px;
+  height: 422px;
+  overflow: hidden;
 }
 .paintings-of-tear {
-      width: 111%;
-    position: absolute;
-    left: -11%;
+  width: 111%;
+  position: absolute;
+  left: -11%;
+}
+.tear-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(154 29 29 / 30%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-tear:hover .tear-description {
+  visibility: visible;
+  opacity: 1;
 }
 
 /* image 4*/
@@ -113,6 +184,29 @@
   position: absolute;
   right: -6%;
 }
+.black-naked-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(229 244 10 / 54%);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-black-naked:hover .black-naked-description {
+  visibility: visible;
+  opacity: 1;
+}
 /* image 5*/
 .image-rognage-piece-of-face {
   border-radius: 10px;
@@ -127,8 +221,31 @@
   position: absolute;
   left: -15%;
 }
+.piece-of-face-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(36 108 42 / 54%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-face:hover .piece-of-face-description {
+  visibility: visible;
+  opacity: 1;
+}
 /* image 6*/
-.image-rognage-piece-of-broken-glass{
+.image-rognage-piece-of-broken-glass {
   border-radius: 10px;
   position: relative;
   text-align: center;
@@ -141,9 +258,33 @@
   position: absolute;
   left: -7%;
 }
+.broken-glass-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(240 244 240 / 44%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+  padding: 0px 20px 5px 20px;
+}
+.image-rognage-piece-of-broken-glass:hover .broken-glass-description {
+  visibility: visible;
+  opacity: 1;
+}
 
 /* image 7*/
-.image-rognage-piece-of-cleavage{
+.image-rognage-piece-of-cleavage {
   border-radius: 10px;
   position: relative;
   text-align: center;
@@ -156,38 +297,108 @@
   position: absolute;
   left: -17%;
 }
+.cleavage-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(150 98 4 / 61%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-cleavage:hover .cleavage-description {
+  visibility: visible;
+  opacity: 1;
+}
 /* image 8*/
 .image-rognage-bulb {
-    border-radius: 10px;
-    position: relative;
-    text-align: center;
-    width: 366px;
-    height: 368px;
-    overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 366px;
+  height: 368px;
+  overflow: hidden;
 }
 .paintings-of-bulb {
-    width: 111%;
-    position: absolute;
-    right: -2%;
-    bottom: -97px;
+  width: 111%;
+  position: absolute;
+  right: -2%;
+  bottom: -97px;
+}
+.bulb-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(150 145 137 / 60%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-bulb:hover .bulb-description {
+  visibility: visible;
+  opacity: 1;
 }
 /* image 9*/
 .image-rognage-piece-of-duel {
-border-radius: 10px;
-    position: relative;
-    text-align: center;
-    width: 404px;
-    height: 631px;
-    overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 404px;
+  height: 631px;
+  overflow: hidden;
 }
 .paintings-piece-of-duels {
   width: 123%;
   position: absolute;
   left: -15%;
 }
+.duels-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #b82e0269;
+  padding: 0px 20px 16px 20px;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-duel:hover .duels-description {
+  visibility: visible;
+  opacity: 1;
+}
 
 /* image 10*/
-.image-rognage-piece-of-silhouette{
+.image-rognage-piece-of-silhouette {
   border-radius: 10px;
   position: relative;
   text-align: center;
@@ -200,9 +411,32 @@ border-radius: 10px;
   position: absolute;
   left: -6%;
 }
+.silhouette-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(255 152 0 / 65%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-silhouette:hover .silhouette-description {
+  visibility: visible;
+  opacity: 1;
+}
 /* image 11*/
 .image-rognage-cigaret {
-border-radius: 10px;
+  border-radius: 10px;
   position: relative;
   text-align: center;
   width: 556px;
@@ -214,6 +448,29 @@ border-radius: 10px;
   position: absolute;
   right: -2%;
   bottom: -97px;
+}
+.cigaret-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(131 4 4 / 48%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-cigaret:hover .cigaret-description {
+  visibility: visible;
+  opacity: 1;
 }
 /* image 12*/
 .image-rognage-piece-of-miror {
@@ -230,9 +487,32 @@ border-radius: 10px;
   left: -13%;
   bottom: -65px;
 }
+.miror-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(233 30 135 / 40%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-miror:hover .miror-description {
+  visibility: visible;
+  opacity: 1;
+}
 
 /* image 13*/
-.image-rognage-piece-of-septembre{
+.image-rognage-piece-of-septembre {
   border-radius: 10px;
   position: relative;
   text-align: center;
@@ -244,6 +524,29 @@ border-radius: 10px;
   width: 111%;
   position: absolute;
   left: -6%;
+}
+.septembre-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(42 71 98 / 61%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-septembre:hover .septembre-description {
+  visibility: visible;
+  opacity: 1;
 }
 /* image 14*/
 .image-rognage-of-colored-eye {
@@ -260,6 +563,29 @@ border-radius: 10px;
   right: -21%;
   bottom: -28px;
 }
+.colored-eye-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(150 98 4 / 61%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-of-colored-eye:hover .colored-eye-description {
+  visibility: visible;
+  opacity: 1;
+}
 /* image 15*/
 .image-rognage-piece-of-indian {
   border-radius: 10px;
@@ -275,9 +601,32 @@ border-radius: 10px;
   left: -29%;
   bottom: -56px;
 }
+.indian-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(250 197 2 / 61%);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-indian:hover .indian-description {
+  visibility: visible;
+  opacity: 1;
+}
 
 /* image 16*/
-.image-rognage-piece-of-girl-smiling{
+.image-rognage-piece-of-girl-smiling {
   border-radius: 10px;
   position: relative;
   text-align: center;
@@ -293,8 +642,31 @@ border-radius: 10px;
   left: -52%;
   top: -39%;
 }
+.girl-smiling-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding: 0px 20px 16px 20px;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(170 91 61 / 43%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-girl-smiling:hover .girl-smiling-description {
+  visibility: visible;
+  opacity: 1;
+}
 /* image 17*/
-.image-rognage-of-black-white-eye{
+.image-rognage-of-black-white-eye {
   border-radius: 10px;
   position: relative;
   text-align: center;
@@ -307,6 +679,29 @@ border-radius: 10px;
   position: absolute;
   right: -26%;
   bottom: -124px;
+}
+.black-white-eye-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(250 249 247 / 61%);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-of-black-white-eye:hover .black-white-eye-description {
+  visibility: visible;
+  opacity: 1;
 }
 /* image 18*/
 .image-rognage-piece-of-dressed-woman {
@@ -323,9 +718,32 @@ border-radius: 10px;
   left: -2%;
   bottom: -8px;
 }
+.dressed-woman-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(180 1 60 / 43%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-dressed-woman:hover .dressed-woman-description {
+  visibility: visible;
+  opacity: 1;
+}
 
 /* image 19*/
-.image-rognage-piece-of-indian-wedding{
+.image-rognage-piece-of-indian-wedding {
   border-radius: 10px;
   position: relative;
   text-align: center;
@@ -343,6 +761,29 @@ border-radius: 10px;
   width: 100%;
   position: relative;
 }
+.indian-wedding-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding: 0px 20px 16px 20px;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(150 98 4 / 68%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-indian-wedding:hover .indian-wedding-description {
+  visibility: visible;
+  opacity: 1;
+}
 /* image 20*/
 .image-rognage-of-drop {
   border-radius: 10px;
@@ -357,6 +798,29 @@ border-radius: 10px;
   position: absolute;
   right: -23%;
   bottom: -12px;
+}
+.drop-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(4 18 150 / 61%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-of-drop:hover .drop-description {
+  visibility: visible;
+  opacity: 1;
 }
 /* image 21*/
 .image-rognage-piece-of-3D-s {
@@ -373,6 +837,29 @@ border-radius: 10px;
   left: -2%;
   bottom: -8px;
 }
+.relief-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding: 0px 20px 16px 20px;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(252 214 159 / 50%);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-3D-s:hover .relief-description {
+  visibility: visible;
+  opacity: 1;
+}
 
 /* image 22*/
 .image-rognage-piece-of-porsch {
@@ -383,11 +870,34 @@ border-radius: 10px;
   height: 386px;
   overflow: hidden;
 }
-.paintings-of-indian-porsch {
+.paintings-of-porsch {
   width: 141%;
   position: absolute;
   right: -23%;
   bottom: -77px;
+}
+.porsch-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3f51b569;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-porsch:hover .porsch-description {
+  visibility: visible;
+  opacity: 1;
 }
 /* image 23*/
 .image-rognage-of-jean {
@@ -403,6 +913,29 @@ border-radius: 10px;
   position: absolute;
   left: -2%;
   bottom: -17px;
+}
+.jean-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(150 149 149 / 74%);
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-of-jean:hover .jean-description {
+  visibility: visible;
+  opacity: 1;
 }
 /* image 24*/
 .image-rognage-piece-of-indian-think {
@@ -423,6 +956,29 @@ border-radius: 10px;
   width: 100%;
   position: relative;
 }
+.indian-think-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding: 0px 20px 16px 20px;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(150 4 5 / 61%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-indian-think:hover .indian-think-description {
+  visibility: visible;
+  opacity: 1;
+}
 
 /* image 25*/
 .image-rognage-piece-of-wine {
@@ -438,4 +994,67 @@ border-radius: 10px;
   position: absolute;
   right: -23%;
   bottom: -12px;
+}
+.wine-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(100 61 29 / 61%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-piece-of-wine:hover .wine-description {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* image 26*/
+.image-rognage-textile-design {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 697px;
+  height: 408px;
+  overflow: hidden;
+}
+
+.jungle-textile-design {
+  width: 104%;
+  left: -26px;
+  bottom: -2px;
+  position: absolute;
+}
+.textile-design-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(150 98 4 / 61%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-textile-design:hover .textile-design-description {
+  visibility: visible;
+  opacity: 1;
 }
