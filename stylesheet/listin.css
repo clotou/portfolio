@@ -7,17 +7,35 @@
   padding-top: 50px;
   padding-bottom: 50px;
 }
+.cadre-listin {
+  padding-left: 15px;
+  width: 100px;
+  height: 30px;
+  box-shadow: -2px 2px 1px -1px black;
+}
+
 .listin-app {
+  padding-top: 30px;
+  padding-bottom: 50px;
   position: relative;
+  color: #fcf6f0;
   font-family: "Poppins", sans-serif;
   font-size: 50px;
   font-weight: 600;
+}
+.listin-app:hover {
   color: #fcf6f0;
-  padding-top: 30px;
-  padding-bottom: 50px;
+  text-shadow: 5px 8px #fcf6f082;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition-duration: 1s;
 }
 
+.main-listin img {
+  border-radius: 2px 2px 0px 0px;
+}
 .card-listin-all {
+  padding-bottom: 50px;
   position: relative;
   display: flex;
   width: 100%;
@@ -31,45 +49,21 @@
 .in-card-listin {
   display: flex;
   flex-direction: column;
-  border-radius: 2px !important;
-  padding: 250px 50px;
-  background-color: #fcf6f0;
+  border-radius: 0px 0px 2px 2px !important;
+  padding: 80px 50px 50px 50px;
+  background-color: #ffebe0;
 }
 
 .listin-description {
   border-radius: 2px !important;
-  max-width: 600px;
+  width: 100%;
   background-color: #fcf6f0 !important;
 }
 
-.listin-illustrations {
-  border-radius: 2px !important;
-  max-width: 600px;
-  background-color: #fcf6f0 !important;
-}
 .in-card-listin-2 {
   border-radius: 2px !important;
   padding: 10px 50px;
   background-color: #fcf6f0;
-}
-.carousel-listin {
-  width: 100%;
-  margin-top: 10px;
-  padding: 30px 55px;
-  border-radius: 2px;
-  background-color: #e8e0d8;
-}
-
-.carouselListinIndicators {
-  position: absolute;
-  z-index: 2;
-  display: flex;
-}
-.listin-carousel-inner {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  justify-content: center;
 }
 
 img,
@@ -83,20 +77,16 @@ svg {
     margin-top: 8px;
   }
 }
-
-.carousel-control-next-icon {
-  filter: invert(70%);
-}
-.carousel-control-prev-icon {
-  filter: invert(70%);
-}
 .site-listin {
-  font-size: 21px;
-  color: #186f70;
-  margin-top: 24px;
-  padding: 24px;
+  color: #781b3c;
+  text-decoration: none;
+}
+.site-listin h4 {
+  padding-bottom: 30px;
+}
+.site-listin:hover {
   text-decoration: none !important;
-  padding-left: 35px;
+  color: #f015cb !important;
 }
 
 .listin {
@@ -109,29 +99,4 @@ svg {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
-}
-
-.carousel-item h5 {
-  color: black;
-  font-size: 1.2rem;
-}
-.carousel-item p {
-  color: black;
-  font-size: 1rem;
-  margin-bottom: 0;
-}
-.carousel-caption {
-  background-color: rgba(255, 255, 255, 0.692);
-  bottom: 0.25rem !important;
-  padding-top: 0.25rem !important;
-  padding-bottom: 0.25rem !important;
-}
-
-.more-opacity {
-  background-color: rgba(255, 255, 255, 0.88);
-  bottom: 0.25rem !important;
-}
-
-.site-listin h4 {
-  padding-bottom: 30px;
 }
