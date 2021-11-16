@@ -1058,3 +1058,83 @@
   visibility: visible;
   opacity: 1;
 }
+
+/* image 27*/
+.image-rognage-scoliose {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 196px;
+  height: 582px;
+  overflow: hidden;
+}
+
+.scoliose {
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+}
+.scoliose-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(150 149 149 / 74%);
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-scoliose:hover .scoliose-description {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* image 28*/
+.image-rognage-glory-hole {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 296px;
+  height: 440px;
+  overflow: hidden;
+}
+
+.glory-hole {
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+}
+.glory-hole-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3f80b569;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+.image-rognage-glory-hole:hover .glory-hole-description {
+  visibility: visible;
+  opacity: 1;
+}
