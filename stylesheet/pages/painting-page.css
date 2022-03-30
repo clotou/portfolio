@@ -13,6 +13,7 @@
 
 .page-info {
   font-size: 22px;
+  max-width: 400px;
 }
 
 .page-painting {
@@ -38,7 +39,22 @@
   flex-wrap: wrap;
 }
 
-.AIFR {
+.AIFR,
+.DMTM,
+.LLAM,
+.HHNA,
+.BSBR,
+.DECH,
+.JRDE,
+.MIEC,
+.ASB6,
+.LRUI,
+.LSUI,
+.LMUI,
+.TSDR,
+.ISWY,
+.LAGT,
+.DVAV {
   max-height: 800px;
   border-radius: 10px;
   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
@@ -46,8 +62,31 @@
   margin-bottom: 20px;
 }
 
-.DMTM {
-  max-height: 800px;
+.VIDE,
+.ELEC,
+.FLCN,
+.SEPT,
+.LPRN,
+.P365,
+.PTDJ,
+.GLHO {
+  max-height: 500px;
+  border-radius: 10px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
+    rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+  margin-bottom: 20px;
+}
+
+.LMDM {
+  max-height: 200px;
+  border-radius: 10px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
+    rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+  margin-bottom: 20px;
+}
+
+.SCOL {
+  max-height: 850px;
   border-radius: 10px;
   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
     rgb(0 0 0 / 30%) 0px 30px 60px -30px;
