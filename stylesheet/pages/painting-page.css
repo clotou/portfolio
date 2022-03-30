@@ -39,23 +39,23 @@
   flex-wrap: wrap;
 }
 
-.AIFR,
-.DMTM,
-.LLAM,
-.HHNA,
-.BSBR,
-.DECH,
-.JRDE,
-.MIEC,
-.ASB6,
-.LRUI,
-.LSUI,
-.LMUI,
-.TSDR,
-.ISWY,
-.LAGT,
-.DVAV,
-.GLHO {
+.AIFR
+  .DMTM
+  .LLAM
+  .HHNA
+  .BSBR
+  .DECH
+  .JRDE
+  .MIEC
+  .ASB6
+  .LRUI
+  .LSUI
+  .LMUI
+  .TSDR
+  .ISWY
+  .LAGT
+  .DVAV
+  .GLHO {
   max-height: 800px;
   border-radius: 10px;
   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
@@ -63,13 +63,7 @@
   margin-bottom: 20px;
 }
 
-.VIDE,
-.ELEC,
-.FLCN,
-.SEPT,
-.LPRN,
-.P365,
-.PTDJ {
+.VIDE .ELEC .FLCN .SEPT .LPRN .P365 .PTDJ {
   max-height: 500px;
   border-radius: 10px;
   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
