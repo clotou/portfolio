@@ -1,0 +1,123 @@
+.coloration-back-3 {
+  background-color: #858181;
+}
+
+.main-proj {
+  margin-top: 18px;
+}
+.cadre-project {
+  padding-left: 15px;
+  width: 100px;
+  height: 30px;
+  box-shadow: -2px 2px 1px -1px black;
+}
+.wagon-project {
+  padding-top: 80px;
+  position: relative;
+  color: #fcf6f0;
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+}
+.wagon-project:hover {
+  color: #fcf6f0;
+  text-shadow: 5px 8px #fcf6f082;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  transition-duration: 1s;
+}
+
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+}
+@media (min-width: 770px) {
+  .wagon-project {
+    font-size: 50px;
+  }
+}
+@media (max-width: 769px) {
+  .wagon-project {
+    font-size: 40px;
+  }
+}
+h3 {
+  color: #f2eae3;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 0px 50px 50px 50px;
+  font-size: 40px;
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .FT-title {
+    font-size: 50px;
+  }
+}
+#wagon-project img {
+  border-radius: 2px 2px 0px 0px;
+}
+.all-wagon-card {
+  padding-bottom: 50px;
+}
+.wagon-card {
+  border-radius: 0px 0px 2px 2px !important;
+  background-color: #ebe5d2 !important;
+}
+.in-card {
+  padding: 0 50px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0px 50px;
+}
+
+.wagon-project:hover {
+  color: #fcf6f0;
+  text-shadow: 5px 8px #fcf6f082;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.site-friendstrip h4 {
+  padding-bottom: 30px;
+}
+.in-card h4 {
+  padding-bottom: 30px;
+}
+u {
+  margin-left: 16px;
+}
+
+ul li {
+  padding-bottom: 5px;
+  font-weight: 300;
+  font-size: 24px;
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  u {
+    font-size: 40px;
+  }
+  ul li {
+    font-size: 40px;
+  }
+}
+
+.site-friendstrip {
+  color: #041f62;
+  text-decoration: none !important;
+}
+.site-friendstrip:hover {
+  color: #fe6625;
+}
+.demoday {
+  color: #041f62;
+  text-decoration: none !important;
+}
+.demoday:hover {
+  color: #fe6625;
+}
+@media only screen and (min-device-width: 100px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .site-friendstrip {
+    font-size: 24px;
+  }
+}

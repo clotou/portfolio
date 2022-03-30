@@ -1,15 +1,9 @@
-@import "./intro.css";
-@import "./aboutme.css";
-@import "./projetwagon.css";
-@import "./listin.css";
-@import "./painting.css";
-@import "./skills.css";
-@import "./contact.css";
-
-/*PAGE INTRO*/
-/*PAGE ABOUT ME*/
-/*PAGE PROJET AT LE WAGON*/
-/*PAGE LISTIN*/
-/*PAGE MY PAINTINGS*/
-/*PAGE SKILLS & TOOLS*/
-/* PAGE CONTACT */
+@import "./pages/intro.css";
+@import "./pages/aboutme.css";
+@import "./pages/projetwagon.css";
+@import "./pages/painting.css";
+@import "./pages/skills.css";
+@import "./pages/contact.css";
+@import "./pages/AIFR.css"; /* a {
+  text-decoration: none;
+} */
