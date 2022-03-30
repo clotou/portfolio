@@ -54,7 +54,8 @@
 .TSDR,
 .ISWY,
 .LAGT,
-.DVAV {
+.DVAV,
+.GLHO {
   max-height: 800px;
   border-radius: 10px;
   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
@@ -68,8 +69,7 @@
 .SEPT,
 .LPRN,
 .P365,
-.PTDJ,
-.GLHO {
+.PTDJ {
   max-height: 500px;
   border-radius: 10px;
   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
