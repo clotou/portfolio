@@ -15,25 +15,41 @@
   font-size: 22px;
 }
 
-.AIFR-coloration-back {
+.page-painting {
   font-family: "Poppins", sans-serif;
 }
-.AIFR-main {
+
+.painting-infos {
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.painting-text {
+  margin-left: 20px;
+  color: black;
+}
+.prix {
+  margin: 0;
+}
+
+.painting-main {
   margin: auto;
   width: 80%;
   display: flex;
+  flex-wrap: wrap;
 }
 
-.AIFR-paintings-of-plane {
+.AIFR {
   max-height: 800px;
   border-radius: 10px;
   box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
     rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+  margin-bottom: 20px;
 }
 
-.AIFR-infos {
-  margin-left: 20px;
-}
-.AIFR-text {
-  color: black;
+.DMTM {
+  max-height: 800px;
+  border-radius: 10px;
+  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
+    rgb(0 0 0 / 30%) 0px 30px 60px -30px;
+  margin-bottom: 20px;
 }
