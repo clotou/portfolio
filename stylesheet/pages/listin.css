@@ -33,6 +33,7 @@
 
 .main-listin img {
   border-radius: 2px 2px 0px 0px;
+  width: 100%;
 }
 .card-listin-all {
   padding-bottom: 50px;

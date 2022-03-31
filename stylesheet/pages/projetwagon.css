@@ -53,6 +53,7 @@ h3 {
 }
 #wagon-project img {
   border-radius: 2px 2px 0px 0px;
+  width: 100%;
 }
 .all-wagon-card {
   padding-bottom: 50px;
