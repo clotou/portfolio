@@ -1141,6 +1141,48 @@
   opacity: 1;
 }
 
+/* image 29*/
+.image-rognage-voiles {
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  width: 296px;
+  height: 394px;
+  overflow: hidden;
+}
+
+.voiles {
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+}
+
+.voiles-description {
+  display: flex;
+  text-align: bottom;
+  justify-content: center;
+  padding-bottom: 1rem;
+  font-weight: lighter;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #3f80b569;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  margin-bottom: 0px;
+  transition: opacity 0.2s, visibility 0.2s;
+  align-items: flex-end;
+}
+
+.image-rognage-voiles:hover .voiles-description {
+  visibility: visible;
+  opacity: 1;
+}
+
 .all-paintings a,
 .all-paintings a:hover,
 .all-paintings a:focus,
